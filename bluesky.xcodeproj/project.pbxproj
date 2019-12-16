@@ -12,6 +12,7 @@
 		D4618FE621CB6CCC003E24E6 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4618FE521CB6CCC003E24E6 /* FileManager.swift */; };
 		D47B0D8F228E7A2D00BC6A82 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47B0D7F228E79DF00BC6A82 /* libMailCore-ios.a */; };
 		D47B0D91228E7A4100BC6A82 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47B0D90228E7A4100BC6A82 /* CFNetwork.framework */; };
+		D48F5AB722C07072003992C4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D48F5AB622C07071003992C4 /* AppIcon.appiconset */; };
 		D49B276C21260A79002A87CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B276B21260A79002A87CC /* AppDelegate.swift */; };
 		D49B276E21260A79002A87CC /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B276D21260A79002A87CC /* MainMenuViewController.swift */; };
 		D49B277121260A79002A87CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49B276F21260A79002A87CC /* Main.storyboard */; };
@@ -96,6 +97,27 @@
 			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
 			remoteInfo = "static mailcore2 ios";
 		};
+		D4FC4C2822A60A240043B919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43E23A921E90F3500DEB034 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 841715D53EEF17A36F0DC7964A4C71AA;
+			remoteInfo = FirebaseCore;
+		};
+		D4FC4C2A22A60A240043B919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43E23A921E90F3500DEB034 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7893324E5190B6CDFC91EA4A40E6773;
+			remoteInfo = GoogleUtilities;
+		};
+		D4FC4C2C22A60A240043B919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43E23A921E90F3500DEB034 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABCCF4AA0B767136A323DF10C3FF9EF5;
+			remoteInfo = nanopb;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +143,7 @@
 		D47B0D71228E79DE00BC6A82 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 		D47B0D90228E7A4100BC6A82 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D47B0D92228E7C6300BC6A82 /* bluesky-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluesky-header.h"; sourceTree = "<group>"; };
+		D48F5AB622C07071003992C4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		D49B276821260A79002A87CC /* bluesky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluesky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49B276B21260A79002A87CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D49B276D21260A79002A87CC /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +186,9 @@
 		D43E23AA21E90F3500DEB034 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				D4FC4C2922A60A240043B919 /* FirebaseCore.framework */,
+				D4FC4C2B22A60A240043B919 /* GoogleUtilities.framework */,
+				D4FC4C2D22A60A240043B919 /* nanopb.framework */,
 				D43E23AE21E90F3500DEB034 /* Pods_bluesky.framework */,
 			);
 			name = Products;
@@ -216,6 +242,7 @@
 		D49B276A21260A79002A87CC /* bluesky */ = {
 			isa = PBXGroup;
 			children = (
+				D48F5AB622C07071003992C4 /* AppIcon.appiconset */,
 				D4CA7FEC22A21DFD00650E76 /* GoogleService-Info.plist */,
 				ED8404EE2126779000E6214D /* ViewControllers */,
 				D49B276B21260A79002A87CC /* AppDelegate.swift */,
@@ -373,6 +400,27 @@
 			remoteRef = D47B0D8A228E79DF00BC6A82 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D4FC4C2922A60A240043B919 /* FirebaseCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCore.framework;
+			remoteRef = D4FC4C2822A60A240043B919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4FC4C2B22A60A240043B919 /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = D4FC4C2A22A60A240043B919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4FC4C2D22A60A240043B919 /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = D4FC4C2C22A60A240043B919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -383,6 +431,7 @@
 				D49B277621260A79002A87CC /* LaunchScreen.storyboard in Resources */,
 				D4CA7FED22A21DFD00650E76 /* GoogleService-Info.plist in Resources */,
 				D49B277321260A79002A87CC /* Assets.xcassets in Resources */,
+				D48F5AB722C07072003992C4 /* AppIcon.appiconset in Resources */,
 				D49B277121260A79002A87CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,7 +654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WHMWBFL62P;
+				DEVELOPMENT_TEAM = 93DK6FMDX6;
 				INFOPLIST_FILE = bluesky/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -634,7 +683,7 @@
 					"-stdlib=libc++",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bskyins.com.bluesky;
+				PRODUCT_BUNDLE_IDENTIFIER = bskyins.com.bluesky1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/bluesky/bluesky-header.h";
 				SWIFT_VERSION = 4.0;
@@ -649,7 +698,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WHMWBFL62P;
+				DEVELOPMENT_TEAM = 93DK6FMDX6;
 				INFOPLIST_FILE = bluesky/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -678,7 +727,7 @@
 					"-stdlib=libc++",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bskyins.com.bluesky;
+				PRODUCT_BUNDLE_IDENTIFIER = bskyins.com.bluesky1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/bluesky/bluesky-header.h";
 				SWIFT_VERSION = 4.0;
